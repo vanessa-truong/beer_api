@@ -36,3 +36,91 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Stylin */
+
+@font-face {
+  font-family: "Slab";
+  src: url("./font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+}
+
+
+*{
+  font-family: "Slab";
+}
+
+.HomeSection {
+  display: block;
+  margin: auto;
+  width: 50vw;
+  text-align: left;
+}
+
+
+.NavBar{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  background-color: #FFCA41;
+  position: sticky;
+
+}
+
+.allbeerFlex{
+  display: flex;
+  flex-direction: column;
+  gap: 25vh;
+  /* margin-top: 50px;; */
+  
+}
+
+.allbeerFlex img{
+  width: 10%;
+  padding-right: 10%;
+}
+
+.allbeerFlex h1 {
+  font-size: 25px;
+}
+
+.created_by {
+  font-weight: 600;
+}
+
+
+.allBeerWholeBlock{
+  padding-bottom: 50px;
+  margin: 50px 10vw;
+  border-bottom: 2px solid rgba(112, 128, 144, 0.34);
+}
+
+.allbeerFlexBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.allbeerPtagblock {
+  width: 40vw;
+  text-align: left;
+  line-height: 30px;
+}
+
+.slogan {
+  color: #FFCA41 ;
+  font-size: 27px;
+}
+
+.details {
+  text-decoration: none;
+  background-color: #FFCA41;
+  padding: 15px 40px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+
+}
