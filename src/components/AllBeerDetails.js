@@ -10,7 +10,7 @@ const AllBeerDetails = () => {
     <div>
       <img
         src={location.state.image_url}
-        alt="image"
+        alt="beer"
         className="img_detailspage"
       />
       <div className="text_block">

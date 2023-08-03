@@ -1,10 +1,8 @@
 import "./App.css";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 //components&pages
 import AllBeerList from "./components/AllBeerList";
-import AllBeerItem from "./components/AllBeerItem";
-import AllBeersHome from "./pages/AllBeersHome";
 import AllBeerDetails from "./components/AllBeerDetails";
 import Home from "./pages/Home";
 import RandomList from "./components/RandomList";
