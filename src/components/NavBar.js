@@ -1,12 +1,14 @@
-import BeerLogo from "../img/icons8-bier-64.png";
+import Logo from "../img/Logo.svg";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-    return ( 
-        <div className="NavBar">
-            <Link to={`/`}><img src={BeerLogo} alt="#" /></Link>
-        </div>
-    );
-}
+  return (
+    <div className="NavBar">
+      <Link to={`/`}>
+        <img src={Logo} alt="kreis" className="logo" />
+      </Link>
+    </div>
+  );
+};
 
 export default NavBar;
