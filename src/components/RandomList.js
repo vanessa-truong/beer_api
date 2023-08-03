@@ -14,8 +14,6 @@ const RandomList = () => {
       });
   }, []);
 
-  console.log(beer);
-
   return (
     <div>
       <img src={beer.image_url} alt="#" className="img_detailspage" />
