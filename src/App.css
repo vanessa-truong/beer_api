@@ -52,7 +52,7 @@
 }
 
 body {
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
@@ -63,7 +63,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 40px auto;
-  width: 50vw;
   text-align: left;
 }
 
@@ -77,6 +76,12 @@ body {
   color: white;
   margin-top: -5px;
   width: 353px;
+}
+
+.HomeSection h1:hover {
+  color: #33333386;
+  background-color: #ffc94189;
+  transition: color 0.5s;
 }
 
 .HomeSection p {
@@ -108,6 +113,10 @@ body {
 /*  =========== AllBeer ============ */
 
 .allBeerWholeBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
   padding-bottom: 50px;
   margin: 40px 10vw;
   border-bottom: 2px solid rgba(112, 128, 144, 0.34);
@@ -148,8 +157,8 @@ body {
   margin-bottom: 15px;
 }
 
-.allbeerPtagblock {
-  width: 40vw;
+.allBeerListText {
+  /* width: 40vw; */
   text-align: left;
   line-height: 30px;
 }
@@ -164,11 +173,17 @@ body {
   font-size: 20px;
 }
 
+.details:hover {
+  color: #33333386;
+  background-color: #ffc94189;
+  transition: color 0.5s;
+}
+
 /* ======= DETAILSPAGE // RANDOMDETAILS ======= */
 
 .text_block {
   text-align: left;
-  margin: 20px 10vw;
+  margin: 20px;
 }
 
 .img_detailspage {

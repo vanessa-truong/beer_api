@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 //pages&Components
 import AllBeerItem from "./AllBeerItem";
+import NavBar from "./NavBar";
 
 const AllBeerList = () => {
   const [beer, setBeer] = useState([]);
@@ -33,6 +34,7 @@ const AllBeerList = () => {
           );
         })}
       </div>
+      <NavBar />
     </section>
   );
 };
