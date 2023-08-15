@@ -7,7 +7,7 @@ const Home = (props) => {
     <section className="HomeSection">
       <div className="Block">
         <Link to={"/allbeers"}>
-          <img src={FirstPic} alt="FirstPic" />
+          <img src={FirstPic} alt="FirstPic" className="image" />
           <h1>All Beers</h1>
         </Link>
         <p>
@@ -17,7 +17,7 @@ const Home = (props) => {
       </div>
       <div className="Block">
         <Link to={`/random`}>
-          <img src={SecondPic} alt="SecondPic" />
+          <img src={SecondPic} alt="SecondPic" className="image" />
           <h1>Random Beer</h1>
         </Link>
         <p>
