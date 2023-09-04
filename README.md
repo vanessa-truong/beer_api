@@ -8,6 +8,8 @@ Technology Stack:
 The project is built using React.js for front-end development.
 React Router is used for routing.
 The application utilizes modern web technologies like Flexbox for layout and CSS for styling.
+
+
 Routing with React Router:
 
 The application uses React Router to enable navigation between different pages.
@@ -15,6 +17,8 @@ Routing configuration is defined in the App.js file.
 Dynamic Data Binding:
 
 The application fetches beer data from an external API (https://ih-beers-api2.herokuapp.com/beers) and dynamically displays it.
+
+
 Style and Design:
 
 Home Page (Home):
