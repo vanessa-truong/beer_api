@@ -1,3 +1,5 @@
+Project Description: Beer-Api
+
 
 The present project is a React application designed for beer enthusiasts. The application offers various features and views related to beer, allowing users to view beer details, display random beers, and browse through a list of all available beers. Here's an overview of the key components and features of the project:
 
