@@ -14,6 +14,8 @@ Routing with React Router:
 
 The application uses React Router to enable navigation between different pages.
 Routing configuration is defined in the App.js file.
+
+
 Dynamic Data Binding:
 
 The application fetches beer data from an external API (https://ih-beers-api2.herokuapp.com/beers) and dynamically displays it.
